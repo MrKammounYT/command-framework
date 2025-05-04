@@ -24,4 +24,7 @@ allprojects {
     tasks.withType(JavaCompile) {
         options.encoding = 'UTF-8'
     }
+    tasks.withType(Jar) {
+        destinationDirectory.set(file("C:\\Users\\ahmed\\OneDrive\\Desktop"))
+    }
 }
